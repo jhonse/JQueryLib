@@ -12,7 +12,7 @@ EYE.extend({
 		var y = 0;
 		var es = e.style;
 		var restoreStyles = false;
-		if (forceIt && jQuery.curCSS(e,'display') == 'none') {
+		if (forceIt && jQuery.css(e,'display') == 'none') {
 			var oldVisibility = es.visibility;
 			var oldPosition = es.position;
 			restoreStyles = true;
